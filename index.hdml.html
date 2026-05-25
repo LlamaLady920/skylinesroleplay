@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky Lines RolePlay</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+    margin:0;
+    font-family:Roboto;
+    background:#000;
+}
+
+/* TITLE SECTION */
+.hero{
+    text-align:center;
+    padding:50px 20px;
+    color:white;
+}
+
+/* TITLE STYLE */
+.hero h1{
+    margin:0;
+    font-size:48px;
+    font-family:'Orbitron', sans-serif;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    color:white;
+}
+
+/* LINE UNDER TITLE */
+.title-line{
+    width:220px;
+    height:2px;
+    background:#666;
+    margin:18px auto 0 auto;
+}
+
+/* LINES */
+.top-line,
+.second-line{
+    width:80%;
+    margin:0 auto;
+    height:1px;
+    background:#444;
+}
+
+/* WHITE SECTION */
+.white-section{
+    background:white;
+    min-height:700px;
+    display:flex;
+    align-items:flex-start;
+    padding:50px;
+    gap:60px;
+}
+
+/* NAVIGATION PANEL */
+.nav-panel{
+    width:260px;
+    min-height:500px;
+    background:linear-gradient(180deg, #7fbf4d, #6aa83f);
+    border-radius:10px;
+    padding:20px;
+    color:white;
+    margin-left:10px;
+    margin-top:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* NAV TITLE */
+.nav-title{
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+/* NAV ITEMS */
+.nav-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:14px 10px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:600;
+    font-size:16px;
+    margin-bottom:8px;
+}
+
+.nav-item:hover{
+    background:rgba(255,255,255,0.15);
+}
+
+/* CONTENT */
+.content{
+    max-width:800px;
+    padding-top:20px;
+}
+
+/* WELCOME */
+.content h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.content p{
+    color:#444;
+    line-height:1.7;
+    font-size:16px;
+}
+
+/* INFO CARDS */
+.info-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:18px;
+    margin-top:30px;
+}
+
+.card{
+    background:#f5f5f5;
+    padding:18px;
+    border-radius:10px;
+}
+
+.card h3{
+    margin:0 0 10px 0;
+}
+
+.card p{
+    font-size:14px;
+    color:#555;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- TITLE -->
+<div class="hero">
+    <h1>Sky Lines Role Play</h1>
+    <div class="title-line"></div>
+</div>
+
+<div class="top-line"></div>
+<div class="second-line"></div>
+
+<!-- MAIN SECTION -->
+<div class="white-section">
+
+    <!-- NAVIGATION -->
+    <div class="nav-panel">
+
+        <div class="nav-title">NAVIGATION</div>
+ 
+        <div class="nav-item">
+            <span>HOME</span>
+        </div>
+
+        <div class="nav-item">
+              <a class="button" href="application.html">application</a>
+            
+            <span>+</span>
+        </div>
+
+        <div class="nav-item">
+            <a class="button" href="Super Market.html">Super Market</a>
+            
+            <span>+</span>
+        </div>
+
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+
+        <h1>Welcome</h1>
+
+        <p>
+            Welcome to Sky Lines Role Play — a console based roleplay community focused on creating realistic, immersive, and enjoyable experiences for all players.
+        </p>
+
+        <p>
+            Our server is built around strong community interaction, structured roleplay, and custom systems designed specifically for console players looking for high quality gameplay.
+        </p>
+
+        <p>
+            Whether you're joining law enforcement, civilian roleplay, or exploring the server with friends, Sky Lines RP provides a professional environment where creativity and realism come together.
+        </p>
+
+        <!-- CARDS -->
+        <div class="info-grid">
+
+            <div class="card">
+                <h3>Realistic RP</h3>
+                <p>Structured and immersive roleplay scenarios for all players.</p>
+            </div>
+
+            <div class="card">
+                <h3>Community</h3>
+                <p>Friendly active players and staff available every day.</p>
+            </div>
+
+            <div class="card">
+                <h3>Custom Systems</h3>
+                <p>Unique features and systems designed for Sky Lines RP.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
